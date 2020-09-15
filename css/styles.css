@@ -5,7 +5,47 @@ body {
 
 .container {
     width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     font-family: 'Tajawal', sans-serif;
+}
+
+.header {
+    width: 98%;
+    height: 600px;
+    display: flex;
+    margin-top: 16px;
+    align-items: flex-start;
+    justify-content: center;
+    border: 1px solid #fff;
+    background-image: url(../images/image6.jpeg);
+    background-size: 100%;
+    background-repeat: initial;
+    background-position: center;
+}
+
+.header__content {
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__h1 {
+    color: #FFFFFF;
+}
+
+.header__link {
+    color: #FFFFFF;
+    margin-right: 36px;
+    text-decoration: none;
+}
+
+.link--last:last-of-type {
+    padding: 8px;
+    margin-right: 0px;
+    border: 1px solid #FFFFFF;
 }
 
 .articles__p {
